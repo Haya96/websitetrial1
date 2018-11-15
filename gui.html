@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Topic</title>
+</head>
+<body>
+
+<h1>Upload File</h1>
+<form action="cgi-bin/upload.cgi" method="POST" enctype="multipart/form-data">
+  File: <input name="file" type="file">
+  <input name="submit1" type="submit" value="Upload" >
+</form>
+
+<br><br>
+<br><br>
+
+<form action="/LDA_and_Classification_our_dataset2.py">
+  Topic from the System:<br>
+  <input type="text" name="SysTopic" value=""><br>
+  The description of it:<br>
+  <input type="text" name="description" value=""><br><br>
+  <input type="submit" value="SubmitTopic">
+</form>
+
+
+<br><br>
+
+</body>
+</html>
